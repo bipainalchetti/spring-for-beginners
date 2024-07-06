@@ -1,8 +1,11 @@
 package com.hasbnspring.springdemo.student;
 
+import org.springframework.stereotype.Service;
+
 import java.time.LocalDate;
 import java.util.List;
 
+@Service
 public class StudentService {
 
     public List<Student> findAllStudents(){
@@ -14,7 +17,7 @@ public class StudentService {
                         7
                 ),
                 new Student(
-                        "Ashvini",
+                        "Ashvini3",
                         "Alchetti",
                         LocalDate.now(),
                         "ashvini.alchetti@gmail.com",
